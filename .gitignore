@@ -1,0 +1,78 @@
+# ===== Python 运行期产物 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ===== 构建 / 打包产物(uv_build、setuptools、wheel) =====
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# ===== 虚拟环境(本机专属,含绝对路径,不入库) =====
+# uv 默认创建 .venv;.venv 自带一个内容为 "*" 的 .gitignore,这里再兜一层
+.venv/
+venv/
+env/
+ENV/
+.python-version.local
+
+# ===== 依赖与工具缓存 =====
+# 注意:uv.lock 必须提交(锁定可复现的依赖版本),不要在此忽略
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+
+# ===== 环境变量 / 密钥(绝不入库) =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ===== 日志与临时文件 =====
+*.log
+logs/
+*.tmp
+*.swp
+*~
+
+# ===== JetBrains / PyCharm 本地用户配置 =====
+# 说明:只忽略"用户级/本机级"文件;
+# .idea/*.iml、.idea/modules.xml、.idea/inspectionProfiles/ 建议保留提交(项目结构+检查规则)
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/shelf/
+.idea/misc.xml
+.idea/vcs.xml
+.idea/dataSources/
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# ===== JetBrains 本地评估/索引缓存 =====
+.jbeval/
+
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# ===== 编辑器 / IDE 其他 =====
+.vscode/
+.ropeproject/
