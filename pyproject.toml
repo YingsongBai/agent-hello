@@ -8,6 +8,7 @@ authors = [
 requires-python = ">=3.11"
 dependencies = [
     "asyncmy>=0.2.14",
+    "config-loader>=1.0.0",
     "cryptography>=50.0.1",
     "elasticsearch[async]>=8,<9",
     "fastapi[standard]>=0.141.1",
