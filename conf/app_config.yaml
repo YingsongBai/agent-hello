@@ -30,7 +30,7 @@ qdrant:
 
 embedding:
   host: localhost
-  port: 6333
+  port: 8081
 #  port: 8081
   model: BAAI/bge-large-zh-v1.5
 

@@ -33,7 +33,6 @@ if __name__ == '__main__':
                 'author': 'Neal stephenson',
                 'release_date': '1992-06-01',
                 'page_count': 470,
-
             }
         )
         resp = await client.search(
