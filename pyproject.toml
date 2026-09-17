@@ -12,6 +12,7 @@ dependencies = [
     "cryptography>=50.0.1",
     "elasticsearch[async]>=8,<9",
     "fastapi[standard]>=0.141.1",
+    "greenlet>=3.5.5",
     "jieba>=0.42.1",
     "langchain>=1.4.0",
     "langchain-huggingface>=1.2.2",
@@ -20,7 +21,7 @@ dependencies = [
     "omegaconf>=2.3.1",
     "pyyaml>=6.0.3",
     "qdrant-client>=1.19.0",
-    "sqlalchemy>=2.0.52",
+    "sqlalchemy[asyncio]>=2.0.52",
 ]
 
 [project.scripts]
