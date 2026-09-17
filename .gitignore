@@ -76,3 +76,4 @@ Icon?
 # ===== 编辑器 / IDE 其他 =====
 .vscode/
 .ropeproject/
+/docker
